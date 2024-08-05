@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="app-header">
+            <div class="view-selector">
+                <span class="view-option active">Day</span>
+                <span class="view-option">Week</span>
+                <span class="view-option">Month</span>
+                <span class="view-option">Year</span>
+            </div>
+            <div class="date-display">
+                <span class="date-navigation">&lt;</span>
+                <span class="date">Thursday</span>
+                <span class="date-navigation">&gt;</span>
+            </div>
+            <div class="date-info">
+                <span class="date-number">Mar 23, 2017</span>
+            </div>
+        </div>
+        <div class="task-input-container">
+            <input type="text" class="task-input" placeholder="Add a task..." />
+        </div>
+        <div class="task-list">
+            <!-- Завдання будуть додаватися сюди -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
